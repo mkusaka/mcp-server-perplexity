@@ -32,6 +32,7 @@ const MODELS = [
 // Search tool with validation
 server.tool(
   "perplexity_search",
+  "Search using Perplexity AI's models with context-aware responses and citations",
   {
     query: z.string().min(1),
     model: z.enum(MODELS).default("sonar").describe("Model to use (sonar-reasoning-pro, sonar-reasoning, sonar-pro, sonar)"),
