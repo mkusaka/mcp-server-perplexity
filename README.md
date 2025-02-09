@@ -21,6 +21,7 @@ An MCP server implementation that integrates Perplexity AI's API, providing adva
 
 ```bash
 pnpm install
+pnpm build
 ```
 
 ## Configuration
@@ -35,9 +36,11 @@ export PERPLEXITY_API_KEY=your_api_key_here
 
 ## Usage
 
-### Running the Server
+### Direct Execution
 ```bash
-pnpm start
+node dist/index.js
+# or if you made it executable
+./dist/index.js
 ```
 
 ### Development
