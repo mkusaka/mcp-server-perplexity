@@ -2,6 +2,8 @@
 
 An MCP server implementation that integrates Perplexity AI's API, providing advanced search capabilities with multiple model options.
 
+<a href="https://glama.ai/mcp/servers/s45iho8wbk"><img width="380" height="200" src="https://glama.ai/mcp/servers/s45iho8wbk/badge" alt="Perplexity AI Server MCP server" /></a>
+
 ## Features
 
 - Search using Perplexity AI's models
