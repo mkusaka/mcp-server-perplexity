@@ -1,5 +1,7 @@
 # Perplexity AI MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@mkusaka/mcp-server-perplexity)](https://smithery.ai/server/@mkusaka/mcp-server-perplexity)
+
 An MCP server implementation that integrates Perplexity AI's API, providing advanced search capabilities with multiple model options.
 
 ## Features
@@ -19,6 +21,15 @@ An MCP server implementation that integrates Perplexity AI's API, providing adva
 
 ## Installation
 
+### Installing via Smithery
+
+To install Perplexity AI MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@mkusaka/mcp-server-perplexity):
+
+```bash
+npx -y @smithery/cli install @mkusaka/mcp-server-perplexity --client claude
+```
+
+### Manual Installation
 ```bash
 pnpm install
 pnpm build
